@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    font-family: Ink Free;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10px -10px -20px -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-weight: bold;
+
+    text-shadow: 1px 0px black
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(255, 239, 92);
+    }
+
+.active {
+    background-color: rgb(255, 239, 92);
+    }
+
+.first-info{
+    background-color: white;
+    
+    border-color: black;
+    border-bottom-style: double;
+    border-width: 3px;
+    
+    margin-top: 100px;
+    width: 80%;
+    height: 294px;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-info img{
+    width: 333px;
+    height: 294px;
+}
+
+.first-info h1{
+    text-align: right;
+    padding-right: 190px;
+    margin-top: -180px;
+
+    color: black;
+    text-shadow: 2px 0px black
+}
+
+.first-info p{
+    text-align: right;
+    padding-right: 190px;
+    margin-top: -20px;
+
+    color: black;
+    text-shadow: 1px 0px black
+}
+
+:root {
+    --facebook:#4267b2;
+    --twitter: #1da1f2;
+    --instagram: #e1306c;
+    --github:#333;
+    --youtube:#ff0000;
+}
+
+.social {
+    flex-direction: row;
+    height: 300%;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    text-align: center;
+}
+
+.social .button {
+    display: inline-block;
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+    margin: 20px 50px 0 50px;
+
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+
+    cursor: pointer;
+    box-shadow: 0px 2px 6px black;
+
+    transition: all 0.3s ease-out;
+}
+
+.social .button .icon{
+    display: inline-block;
+    height: -20px;
+    width: 20px;
+    text-align: center;
+    line-height: 40px;
+}
